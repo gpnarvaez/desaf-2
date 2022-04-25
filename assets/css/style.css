@@ -1,0 +1,73 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Se crea una clase para el header del proyecto */
+.header {
+    background-image: url("../imgs/fondo.jpg");
+    background-size: cover;
+    /* Se utiliza la propiedad respecto al eje Y para mostrar el punto focal de la imágen */
+    background-position-y: 830px;
+    height: 5em;
+    padding: 3em;
+    font-size: 2em;
+}
+
+.header h1 {
+    margin: 0px;
+    color: white;
+    font-weight: 800;
+
+}
+
+.header p {
+    color: lightyellow;
+    font-size: 1.55rem;
+    font-weight: 400;
+}
+
+/* Sección de productos del proyecto */
+
+.discs_list {
+    width: 60%;
+    margin: auto;
+}
+
+.discs_list td {
+    /* Se aplica un ancho y padding o relleno para estandarizar las celdas */
+    width: 50%;
+    padding: 2em;
+    /* Se agrega propiedad para subir texto en alineación el top de la imágen */
+    vertical-align: top;
+}
+
+.discs_list img {
+    /* Se aplica un ancho estandar y un borde redondeado para más detalles */
+    width: 80%;
+    border: solid 1px rgb(60, 1, 102);
+    border-radius: 10px;
+
+}
+
+.discs_list p {
+    font-size: 1.2rem;
+
+}
+
+.discs_list p.nombre {
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+.footer {
+    height: 8em;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
